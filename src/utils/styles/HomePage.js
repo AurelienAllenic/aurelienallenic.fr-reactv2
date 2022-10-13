@@ -1,6 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import img from "../../assets/images/homepage.jpg";
 import imgCV from "../../assets/images/photo-cv.webp";
+import colors from "./colors";
 
 //Main Component
 
@@ -124,7 +125,6 @@ export const ContactLink = styled.a`
   background-color: black;
   color: white;
   font-weight: 600;
-  opacity: 0.8;
   font-size: 20px;
   animation: fall 3s forwards;
   animation-delay: 0.4s;
@@ -202,8 +202,7 @@ export const GithubContainer = styled.a`
     }
   }
   &:hover {
-    opacity: 0.3;
-    cursor: pointer;
+    color: ${colors.primary};
   }
 `;
 
@@ -225,8 +224,7 @@ export const MailContainer = styled.a`
     }
   }
   &:hover {
-    opacity: 0.3;
-    cursor: pointer;
+    color: ${colors.primary};
   }
 `;
 
@@ -236,7 +234,6 @@ export const LinkedinContainer = styled.a`
   bottom: 2%;
   color: white;
   font-size: 35px;
-  opacity: 0;
   animation: fall 3s forwards;
   animation-delay: 0.7s;
   opacity: 0;
@@ -249,7 +246,6 @@ export const LinkedinContainer = styled.a`
     }
   }
   &:hover {
-    opacity: 0.3;
-    cursor: pointer;
+    color: ${colors.primary};
   }
 `;
