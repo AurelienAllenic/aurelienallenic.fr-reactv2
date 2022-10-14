@@ -6,7 +6,7 @@ const Me = () => {
     <>
         <MeContainer>
             <MainTitleMe>Aurélien Allenic</MainTitleMe>
-            <SecondTitleMe>Développeur web</SecondTitleMe>
+            <SecondTitleMe>Web Developper</SecondTitleMe>
         </MeContainer>
     </>
   )

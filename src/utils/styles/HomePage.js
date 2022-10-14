@@ -1,15 +1,6 @@
-import styled, { keyframes } from "styled-components";
-import img from "../../assets/images/homepage.jpg";
+import styled from "styled-components";
 import imgCV from "../../assets/images/photo-cv.webp";
 import colors from "./colors";
-
-//Main Component
-
-export const MainImageHome = styled.div`
-  background: url(${img}) no-repeat center/cover;
-  height: 99.6vh;
-  width: 100%;
-`;
 
 //Me Component
 
@@ -19,13 +10,17 @@ export const MainTitleMe = styled.h1`
   opacity: 0;
   @keyframes fall {
     0% {
-      top: 40%;
       opacity: 0;
     }
     100% {
-      top: 15%;
       opacity: 1;
     }
+  }
+  @media (max-width: 520px) {
+    font-size: 40px;
+  }
+  @media (max-width: 414px) {
+    font-size: 35px;
   }
 `;
 
@@ -37,13 +32,19 @@ export const SecondTitleMe = styled.h2`
   animation-delay: 0.2s;
   @keyframes fall {
     0% {
-      top: 40%;
+      top: 30%;
       opacity: 0;
     }
     100% {
-      top: 15%;
+      top: 10%;
       opacity: 1;
     }
+  }
+  @media (max-width: 520px) {
+    font-size: 28px;
+  }
+  @media (max-width: 414px) {
+    font-size: 25px;
   }
 `;
 
@@ -53,10 +54,7 @@ export const MeContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  }
 `;
-
-//export const buttonsChoice = styled.div``;
 
 export const CvLink = styled.a`
   text-decoration: none;
@@ -72,6 +70,7 @@ export const CvLink = styled.a`
   animation: fall 3s forwards;
   animation-delay: 0.3s;
   opacity: 0;
+  margin: 0px;
   @keyframes fall {
     0% {
       opacity: 0;
@@ -86,11 +85,43 @@ export const CvLink = styled.a`
     border: none;
     cursor: pointer;
   }
+  @media (max-width: 1690px) {
+    left: 25%;
+    font-size: 18px;
+  }
+  @media (max-width: 1128px) {
+    left: 22%;
+  }
+  @media (max-width: 1067px) {
+    left: 18%;
+  }
+  @media (max-width: 600px) {
+    margin-right: 15px;
+    padding: 10px;
+  }
+  @media (max-width: 520px) {
+    left: 12%;
+  }
+  @media (max-width: 842px) {
+    left: 15%;
+  }
+  @media (max-width: 820px) {
+    left: 8%;
+    font-size: 18px;
+  }
+  @media (max-width: 414px) {
+    left: 17%;
+    top: 27%;
+    font-size: 15px;
+  }
+  @media (max-width: 375px) {
+    left: 10%;
+  }
 `;
 export const LetterLink = styled.a`
   text-decoration: none;
   position: absolute;
-  left: 43%;
+  left: 45%;
   padding: 20px;
   border-radius: 15px 15px 15px 15px;
   background-color: black;
@@ -114,6 +145,33 @@ export const LetterLink = styled.a`
     color: black;
     border: none;
     cursor: pointer;
+  }
+  @media (max-width: 1496px) {
+    left: 44%;
+  }
+  @media (max-width: 1128px) {
+    left: 41%;
+  }
+  @media (max-width: 600px) {
+    left: 35%;
+    padding: 10px;
+  }
+  @media (max-width: 842px) {
+    left: 35%;
+  }
+  @media (max-width: 820px) {
+    left: 35%;
+  }
+  @media (max-width: 520px) {
+    top: 27%;
+    left: 32%;
+  }
+  @media (max-width: 414px) {
+    left: 52%;
+    font-size: 15px;
+  }
+  @media (max-width: 375px) {
+    left: 55%;
   }
 `;
 export const ContactLink = styled.a`
@@ -143,6 +201,33 @@ export const ContactLink = styled.a`
     border: none;
     cursor: pointer;
   }
+  @media (max-width: 1690px) {
+    left: 67%;
+    font-size: 18px;
+  }
+  @media (max-width: 1128px) {
+    left: 65%;
+  }
+  @media (max-width: 1067px) {
+    left: 70%;
+  }
+  @media (max-width: 600px) {
+    margin-left: 15px;
+    padding: 10px;
+  }
+  @media (max-width: 820px) {
+    left: 70%;
+    font-size: 18px;
+  }
+  @media (max-width: 414px) {
+    left: 33%;
+    top: 34%;
+    font-size: 15px;
+  }
+  @media (max-width: 375px) {
+    left: 30%;
+    top: 35%;
+  }
 `;
 export const ImageContainer = styled.div`
   background: linear-gradient(black, transparent);
@@ -153,7 +238,7 @@ export const ImageContainer = styled.div`
   top: 40%;
   border-radius: 15px 15px 15px 15px;
   border: 1px solid white;
-  animation: fall 3s forwards;
+  animation: fall 2s forwards;
   animation-delay: 0.4s;
   opacity: 0;
   @keyframes fall {
@@ -163,6 +248,28 @@ export const ImageContainer = styled.div`
     100% {
       opacity: 1;
     }
+  }
+  @media (max-width: 1496px) {
+    height: 400px;
+    top: 45%;
+  }
+  @media (max-width: 1128px) {
+    height: 300px;
+    top: 45%;
+  }
+  @media (max-width: 940px) {
+    height: 250px;
+  }
+  @media (max-width: 820px) {
+    height: 20vh;
+    left: 36%;
+  }
+  @media (max-width: 414px) {
+    height: 15vh;
+    top: 45%;
+  }
+  @media (max-width: 375px) {
+    top: 43%;
   }
 `;
 export const ImageMe = styled.div`
@@ -204,6 +311,12 @@ export const GithubContainer = styled.a`
   &:hover {
     color: ${colors.primary};
   }
+  @media (max-width: 820px) {
+    display: none;
+  }
+  @media (max-width: 414px) {
+    font-size: 25px;
+  }
 `;
 
 export const MailContainer = styled.a`
@@ -226,6 +339,12 @@ export const MailContainer = styled.a`
   &:hover {
     color: ${colors.primary};
   }
+  @media (max-width: 940px) {
+    left: 8%;
+  }
+  @media (max-width: 820px) {
+    display: none;
+  }
 `;
 
 export const LinkedinContainer = styled.a`
@@ -247,5 +366,11 @@ export const LinkedinContainer = styled.a`
   }
   &:hover {
     color: ${colors.primary};
+  }
+  @media (max-width: 940px) {
+    left: 14%;
+  }
+  @media (max-width: 820px) {
+    display: none;
   }
 `;

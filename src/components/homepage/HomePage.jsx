@@ -1,21 +1,24 @@
 import React from 'react'
-import {MainImageHome} from "../../utils/styles/HomePage"
+import {MainImage} from "../../utils/styles/general"
 import Me from './Me'
-import Choices from '../Choices'
+import Choices from './Choices'
 import Illustration from './Illustration'
 import IconsContainer from "./Icons"
+import {Section} from "../../utils/styles/general"
+import Nav from "../nav/NavHomepage"
 
 function HomePage(){
   return (
     <>
-    
-    <MainImageHome>
+    <Section>
+    <MainImage>
+      <Nav></Nav>
       <Me />
       <Choices />
       <Illustration />
       <IconsContainer/>
-    </MainImageHome>
-    
+    </MainImage>
+    </Section>
     </>
   )
 }
