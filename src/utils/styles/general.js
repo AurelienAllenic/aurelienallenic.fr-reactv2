@@ -108,6 +108,35 @@ export const MainImageMediaInterests = styled.div`
     height: 180vh;
   }
 `;
+export const MainImageMediaContact = styled.div`
+  background: url(${img}) no-repeat center/cover;
+  height: 100vh;
+  width: 100%;
+  @media (max-width: 1550px) {
+    height: 110vh;
+  }
+  @media (max-width: 820px) and (max-height: 1180px) {
+    height: 180vh;
+  }
+  @media (max-width: 820px) and (max-height: 882px) {
+    height: 220vh;
+  }
+  @media (max-width: 768px) and (max-height: 1024px) {
+    height: 200vh;
+  }
+  @media (max-width: 768px) and (max-height: 882px) {
+    height: 210vh;
+  }
+  @media (max-width: 414px) and (max-height: 882px) {
+    height: 210vh;
+  }
+  @media (max-width: 414px) and (max-height: 736px) {
+    height: 250vh;
+  }
+  @media (max-width: 375px) and (max-height: 667px) {
+    height: 270vh;
+  }
+`;
 export const MainTitle = styled.h3`
   color: white;
   display: flex;

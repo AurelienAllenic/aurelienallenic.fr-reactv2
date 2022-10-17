@@ -9,15 +9,25 @@ export const SuperContainer = styled.div`
 export const CardsContainer = styled.div`
   width: 40%;
   margin-left: 150px;
+  margin-top: 0px;
+  @media (max-width: 2012px) {
+    margin-top: 80px;
+  }
+  @media (max-width: 820px) {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 250px;
+  }
 `;
 export const Card = styled.div`
   background-color: ${colors.primary};
   opacity: 0.8;
   color: white;
-  margin: 20px;
-  padding: 5px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  padding: 3px;
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   border-radius: 15px 15px 15px 15px;
   &:hover {
     opacity: 1;
@@ -61,13 +71,38 @@ export const CardIcon = styled.div`
   padding-top: 3px;
 `;
 export const FormContainer = styled.div`
-  width: 30%;
+  width: 35%;
   position: absolute;
   left: 60%;
   top: 20%;
   animation: fall 3s forwards;
   animation-delay: 0.6s;
   opacity: 0;
+  @media (max-width: 820px) and (max-height: 1180px) {
+    width: 100%;
+    left: 0%;
+    top: 95%;
+  }
+  @media (max-width: 820px) and (max-height: 882px) {
+    width: 100%;
+    left: 0%;
+    top: 130%;
+  }
+  @media (max-width: 768px) and (max-height: 1024px) {
+    top: 115%;
+  }
+  @media (max-width: 768px) and (max-height: 882px) {
+    top: 130%;
+  }
+  @media (max-width: 414px) and (max-height: 882px) {
+    top: 130%;
+  }
+  @media (max-width: 414px) and (max-height: 736px) {
+    top: 155%;
+  }
+  @media (max-width: 375px) and (max-height: 667px) {
+    top: 170%;
+  }
   @keyframes fall {
     0% {
       opacity: 0;
@@ -80,6 +115,7 @@ export const FormContainer = styled.div`
 export const EntireForm = styled.form`
   display: flex;
   flex-direction: column;
+  width: 100%;
 `;
 export const InputStyle = styled.input`
   background-color: ${colors.primary};
