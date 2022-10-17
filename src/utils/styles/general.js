@@ -78,6 +78,36 @@ export const MainImageMediaPortfolio = styled.div`
     height: 400vh;
   }
 `;
+export const MainImageMediaInterests = styled.div`
+  background: url(${img}) no-repeat center/cover;
+  height: 115vh;
+  width: 100%;
+  @media (max-width: 2214px) {
+    height: 100vh;
+  }
+  @media (max-width: 1583px) {
+    height: 125vh;
+  }
+  @media (max-width: 1409px) {
+    height: 135vh;
+  }
+  @media (max-width: 1181px) {
+    height: 145vh;
+  }
+  @media (max-width: 820px) {
+    height: 175vh;
+  }
+  @media (max-width: 690px) {
+    height: 135vh;
+  }
+  @media (max-width: 414px) {
+    height: 155vh;
+  }
+  @media (max-width: 375px) {
+    width: 103%;
+    height: 180vh;
+  }
+`;
 export const MainTitle = styled.h3`
   color: white;
   display: flex;

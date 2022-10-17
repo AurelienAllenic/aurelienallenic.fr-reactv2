@@ -1,15 +1,15 @@
 import React from 'react'
 import Cards from './Cards'
-import {MainImage} from "../../utils/styles/general"
+import {MainImageMediaInterests} from "../../utils/styles/general"
 import Nav from "../nav/GeneralNav"
 
 function Interests() {
   return (
     <>
-    <MainImage>
+    <MainImageMediaInterests>
         <Nav/>
         <Cards/>
-    </MainImage>
+    </MainImageMediaInterests>
     </>
   )
 }
