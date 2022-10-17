@@ -22,11 +22,17 @@ export const MainImageAbout = styled.div`
   @media (max-width: 965px) {
     height: 175vh;
   }
-  @media (max-width: 820px) {
+  @media (max-width: 820px) and (max-height: 1180px) {
+    height: 145vh;
+  }
+  @media (max-width: 820px) and (max-height: 882px) {
     height: 180vh;
   }
-  @media (max-width: 776px) {
-    height: 200vh;
+  @media (max-width: 776px) and (max-height: 1024px) {
+    height: 155vh;
+  }
+  @media (max-width: 776px) and (max-height: 882px) {
+    height: 180vh;
   }
   @media (max-width: 450px) {
     height: 210vh;
@@ -34,7 +40,10 @@ export const MainImageAbout = styled.div`
   @media (max-width: 414px) {
     height: 270vh;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 375px) and (max-height: 882px) {
+    height: 245vh;
+  }
+  @media (max-width: 375px) and (max-height: 667px) {
     height: 300vh;
   }
 `;
@@ -48,8 +57,11 @@ export const MainImageMediaEXP = styled.div`
   @media (max-width: 965px) {
     height: 100vh;
   }
-  @media (max-width: 414px) {
+  @media (max-width: 414px) and (max-height: 882px) {
     height: 105vh;
+  }
+  @media (max-width: 414px) and (max-height: 736px) {
+    height: 125vh;
   }
   @media (max-width: 375px) {
     height: 140vh;

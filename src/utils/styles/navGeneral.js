@@ -72,7 +72,7 @@ export const NavContainerRight = styled.nav`
   }
   @media (max-width: 820px) {
     left: 10%;
-    top: 23%;
+    top: 16%;
   }
   @media (max-width: 583px) {
     top: 19%;

@@ -53,7 +53,7 @@ export const SuperContainerAbout = styled.div`
     gap: 10px;
     width: 85%;
     left: -10%;
-    top: 30%;
+    top: 25%;
   }
   @media (max-width: 768px) {
     top: 30%;
@@ -191,7 +191,15 @@ export const MotivationContainer = styled.div`
   @media (max-width: 1189px) {
     top: 2.5%;
   }
-  @media (max-width: 820px) {
+  @media (max-width: 820px) and (max-height: 1180px) {
+    font-size: 14px;
+    top: 72%;
+    width: 80%;
+    left: 6%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  @media (max-width: 820px) and (max-height: 882px) {
     font-size: 14px;
     top: 74%;
     width: 80%;
@@ -199,15 +207,23 @@ export const MotivationContainer = styled.div`
     margin-right: 0px;
     margin-left: 0px;
   }
-  @media (max-width: 776px) {
-    top: 68%;
+  @media (max-width: 776px) and (max-height: 1024px) {
+    top: 70%;
     left: 4%;
+  }
+  @media (max-width: 776px) and (max-height: 882px) {
+    top: 73%;
+    left: 6%;
   }
   @media (max-width: 450px) {
     top: 70%;
     left: 4%;
   }
   @media (max-width: 414px) {
+    top: 68%;
+    left: 3%;
+  }
+  @media (max-width: 375px) and (max-height: 882px) {
     top: 68%;
     left: 3%;
   }
