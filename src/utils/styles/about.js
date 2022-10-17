@@ -35,13 +35,13 @@ export const SuperContainerAbout = styled.div`
   @media (max-width: 820px) {
     gap: 10px;
     left: 0%;
-    top: 19%;
+    top: 25%;
     margin-right: 5px;
     margin-left: 5px;
     width: 85%;
   }
   @media (max-width: 768px) {
-    top: 17%;
+    top: 30%;
   }
   @media (max-width: 414px) {
     gap: 10px;
@@ -163,14 +163,14 @@ export const MotivationContainer = styled.div`
   }
   @media (max-width: 820px) {
     font-size: 14px;
-    top: 62%;
+    top: 65%;
     width: 80%;
     left: 4%;
     margin-right: 0px;
     margin-left: 0px;
   }
   @media (max-width: 768px) {
-    top: 61%;
+    top: 65%;
   }
   @media (max-width: 414px) {
     top: 68%;

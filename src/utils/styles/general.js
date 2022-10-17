@@ -10,6 +10,12 @@ export const MainImageMedia = styled.div`
   background: url(${img}) no-repeat center/cover;
   height: 100vh;
   width: 100%;
+  @media (max-width: 820px) {
+    height: 110vh;
+  }
+  @media (max-width: 768px) {
+    height: 120vh;
+  }
   @media (max-width: 414px) {
     height: 270vh;
   }
