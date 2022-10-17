@@ -6,21 +6,53 @@ export const MainImage = styled.div`
   height: 100vh;
   width: 100%;
 `;
-export const MainImageMedia = styled.div`
+export const MainImageAbout = styled.div`
   background: url(${img}) no-repeat center/cover;
   height: 100vh;
   width: 100%;
-  @media (max-width: 820px) {
+  @media (max-width: 1553px) {
     height: 110vh;
   }
-  @media (max-width: 768px) {
-    height: 120vh;
+  @media (max-width: 1190px) {
+    height: 165vh;
+  }
+  @media (max-width: 1073px) {
+    height: 170vh;
+  }
+  @media (max-width: 965px) {
+    height: 175vh;
+  }
+  @media (max-width: 820px) {
+    height: 180vh;
+  }
+  @media (max-width: 776px) {
+    height: 200vh;
+  }
+  @media (max-width: 450px) {
+    height: 210vh;
   }
   @media (max-width: 414px) {
     height: 270vh;
   }
   @media (max-width: 375px) {
     height: 300vh;
+  }
+`;
+export const MainImageMediaEXP = styled.div`
+  background: url(${img}) no-repeat center/cover;
+  height: 100vh;
+  width: 100%;
+  @media (max-width: 1553px) {
+    height: 110vh;
+  }
+  @media (max-width: 965px) {
+    height: 100vh;
+  }
+  @media (max-width: 414px) {
+    height: 105vh;
+  }
+  @media (max-width: 375px) {
+    height: 140vh;
   }
 `;
 export const MainTitle = styled.h3`
@@ -39,6 +71,9 @@ export const MainTitle = styled.h3`
     100% {
       opacity: 1;
     }
+  }
+  @media (max-width: 375px) {
+    margin-left: 30px;
   }
 `;
 export const AnimApparition = styled.div`

@@ -4,7 +4,7 @@ import colors from "./colors";
 export const NavContainerLeft = styled.nav`
   display: grid;
   position: absolute;
-  top: 2%;
+  top: 8%;
   left: 10%;
   animation: fall 2s forwards;
   animation-delay: 0.4s;
@@ -17,19 +17,35 @@ export const NavContainerLeft = styled.nav`
       opacity: 1;
     }
   }
+  @media (max-width: 1693px) {
+    left: 5%;
+  }
+  @media (max-width: 1566px) {
+    left: 0%;
+  }
+  @media (max-width: 1414px) {
+    top: 9%;
+  }
   @media (max-width: 820px) {
-    left: 22%;
     top: 8%;
+    left: 22%;
+  }
+  @media (max-width: 583px) {
+    top: 10%;
+    left: 15%;
+  }
+  @media (max-width: 450px) {
+    left: 8%;
   }
   @media (max-width: 414px) {
     left: 0%;
-    top: 10%;
+    top: 13%;
   }
 `;
 export const NavContainerRight = styled.nav`
   display: grid;
   position: absolute;
-  top: 2%;
+  top: 8%;
   right: 8%;
   animation: fall 2s forwards;
   animation-delay: 0.4s;
@@ -42,13 +58,32 @@ export const NavContainerRight = styled.nav`
       opacity: 1;
     }
   }
+  @media (max-width: 1693px) {
+    right: 4%;
+  }
+  @media (max-width: 1566px) {
+    right: 0%;
+  }
+  @media (max-width: 1414px) {
+    top: 9%;
+  }
+  @media (max-width: 1050px) {
+    right: 1%;
+  }
   @media (max-width: 820px) {
     left: 10%;
-    top: 17%;
+    top: 23%;
+  }
+  @media (max-width: 583px) {
+    top: 19%;
+  }
+  @media (max-width: 450px) {
+    left: 8%;
+    top: 22%;
   }
   @media (max-width: 414px) {
     left: 0%;
-    top: 25%;
+    top: 28%;
   }
 `;
 export const HomeButton = styled.a`
@@ -65,8 +100,20 @@ export const HomeButton = styled.a`
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
   }
+  @media (max-width: 1222px) {
+    font-size: 25px;
+  }
+  @media (max-width: 1050px) {
+    font-size: 17px;
+  }
   @media (max-width: 820px) {
     font-size: 20px;
+  }
+  @media (max-width: 536px) {
+    padding: 15px;
+  }
+  @media (max-width: 450px) {
+    padding: 15px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -86,8 +133,20 @@ export const AboutButton = styled.a`
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
   }
+  @media (max-width: 1222px) {
+    font-size: 25px;
+  }
+  @media (max-width: 1050px) {
+    font-size: 17px;
+  }
   @media (max-width: 820px) {
     font-size: 20px;
+  }
+  @media (max-width: 536px) {
+    padding: 15px;
+  }
+  @media (max-width: 450px) {
+    padding: 15px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -107,8 +166,20 @@ export const ExperienceButton = styled.a`
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
   }
+  @media (max-width: 1222px) {
+    font-size: 25px;
+  }
+  @media (max-width: 1050px) {
+    font-size: 17px;
+  }
   @media (max-width: 820px) {
     font-size: 20px;
+  }
+  @media (max-width: 536px) {
+    padding: 15px;
+  }
+  @media (max-width: 450px) {
+    padding: 15px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -128,8 +199,20 @@ export const PortfolioButton = styled.a`
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
   }
+  @media (max-width: 1222px) {
+    font-size: 25px;
+  }
+  @media (max-width: 1050px) {
+    font-size: 17px;
+  }
   @media (max-width: 820px) {
     font-size: 20px;
+  }
+  @media (max-width: 536px) {
+    padding: 15px;
+  }
+  @media (max-width: 450px) {
+    padding: 15px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -150,8 +233,20 @@ export const InterestsButton = styled.a`
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
   }
+  @media (max-width: 1222px) {
+    font-size: 25px;
+  }
+  @media (max-width: 1050px) {
+    font-size: 17px;
+  }
   @media (max-width: 820px) {
     font-size: 20px;
+  }
+  @media (max-width: 536px) {
+    padding: 15px;
+  }
+  @media (max-width: 450px) {
+    padding: 15px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -172,8 +267,20 @@ export const ContactButton = styled.a`
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
   }
+  @media (max-width: 1222px) {
+    font-size: 25px;
+  }
+  @media (max-width: 1050px) {
+    font-size: 17px;
+  }
   @media (max-width: 820px) {
     font-size: 20px;
+  }
+  @media (max-width: 536px) {
+    padding: 15px;
+  }
+  @media (max-width: 450px) {
+    padding: 15px;
   }
   @media (max-width: 375px) {
     font-size: 18px;

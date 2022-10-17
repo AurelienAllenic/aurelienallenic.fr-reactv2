@@ -18,7 +18,7 @@ export const SuperContainerAbout = styled.div`
   gap: 100px;
   position: absolute;
   left: 40%;
-  top: 17%;
+  top: 19%;
   margin-right: 40px;
   margin-left: 40px;
   animation: fall 2s forwards;
@@ -32,22 +32,42 @@ export const SuperContainerAbout = styled.div`
       opacity: 1;
     }
   }
+  @media (max-width: 1706px) {
+    margin-right: 20px;
+    margin-left: 20px;
+    left: 30%;
+  }
+  @media (max-width: 1428px) {
+    gap: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  @media (max-width: 1414px) {
+    top: 19%;
+  }
+  @media (max-width: 1189px) {
+    display: flex;
+    flex-direction: column;
+  }
   @media (max-width: 820px) {
     gap: 10px;
-    left: 0%;
-    top: 25%;
-    margin-right: 5px;
-    margin-left: 5px;
     width: 85%;
+    left: -10%;
+    top: 30%;
   }
   @media (max-width: 768px) {
     top: 30%;
+    left: -13%;
+  }
+  @media (max-width: 450px) {
+    top: 38%;
+    left: -13%;
   }
   @media (max-width: 414px) {
     gap: 10px;
     display: flex;
     flex-direction: column;
-    left: -5%;
+    left: -15%;
     text-align: center;
     top: 45%;
   }
@@ -138,7 +158,7 @@ export const Insist = styled.span`
 `;
 export const MotivationContainer = styled.div`
   position: relative;
-  top: 18%;
+  top: 20%;
   left: 0%;
   animation: fall 2s forwards;
   animation-delay: 0.4s;
@@ -161,19 +181,35 @@ export const MotivationContainer = styled.div`
       opacity: 1;
     }
   }
+  @media (max-width: 1706px) {
+    width: 25%;
+    top: 8%;
+  }
+  @media (max-width: 1414px) {
+    top: 5%;
+  }
+  @media (max-width: 1189px) {
+    top: 2.5%;
+  }
   @media (max-width: 820px) {
     font-size: 14px;
-    top: 65%;
+    top: 74%;
     width: 80%;
-    left: 4%;
+    left: 6%;
     margin-right: 0px;
     margin-left: 0px;
   }
-  @media (max-width: 768px) {
-    top: 65%;
+  @media (max-width: 776px) {
+    top: 68%;
+    left: 4%;
+  }
+  @media (max-width: 450px) {
+    top: 70%;
+    left: 4%;
   }
   @media (max-width: 414px) {
     top: 68%;
+    left: 3%;
   }
 `;
 export const MotivationText = styled.p`

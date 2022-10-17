@@ -294,7 +294,7 @@ export const ImageMe = styled.div`
 export const GithubContainer = styled.a`
   position: absolute;
   left: 2%;
-  bottom: 2%;
+  top: 2%;
   color: white;
   font-size: 35px;
   animation: fall 3s forwards;
@@ -311,10 +311,13 @@ export const GithubContainer = styled.a`
   &:hover {
     color: ${colors.primary};
   }
-  @media (max-width: 820px) {
-    display: none;
+  @media (max-width: 582px) {
+    font-size: 20px;
   }
   @media (max-width: 414px) {
+    top: 1%;
+  }
+  @media (max-width: 375px) {
     font-size: 25px;
   }
 `;
@@ -322,7 +325,7 @@ export const GithubContainer = styled.a`
 export const MailContainer = styled.a`
   position: absolute;
   left: 6%;
-  bottom: 2%;
+  top: 2%;
   color: white;
   font-size: 35px;
   animation: fall 3s forwards;
@@ -342,15 +345,20 @@ export const MailContainer = styled.a`
   @media (max-width: 940px) {
     left: 8%;
   }
-  @media (max-width: 820px) {
-    display: none;
+  @media (max-width: 632px) {
+    left: 10%;
+  }
+  @media (max-width: 582px) {
+    left: 2%;
+    top: 10%;
+    font-size: 20px;
   }
 `;
 
 export const LinkedinContainer = styled.a`
   position: absolute;
   left: 10%;
-  bottom: 2%;
+  top: 2%;
   color: white;
   font-size: 35px;
   animation: fall 3s forwards;
@@ -370,7 +378,12 @@ export const LinkedinContainer = styled.a`
   @media (max-width: 940px) {
     left: 14%;
   }
-  @media (max-width: 820px) {
-    display: none;
+  @media (max-width: 632px) {
+    left: 18%;
+  }
+  @media (max-width: 582px) {
+    left: 2%;
+    top: 6%;
+    font-size: 20px;
   }
 `;

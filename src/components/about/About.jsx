@@ -1,5 +1,5 @@
 import React from 'react'
-import {MainImageMedia} from "../../utils/styles/general"
+import {MainImageAbout} from "../../utils/styles/general"
 import Nav from "../nav/GeneralNav"
 import Me from "./Me"
 import {Section} from "../../utils/styles/general"
@@ -9,11 +9,11 @@ function About() {
   return (
     <>
     <Section>
-    <MainImageMedia>
+    <MainImageAbout>
     <Nav/>
         <Me />
         <Icons/>
-    </MainImageMedia>
+    </MainImageAbout>
     </Section>
     </>
   )
