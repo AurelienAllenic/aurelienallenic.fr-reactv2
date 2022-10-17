@@ -94,11 +94,8 @@ export const MainImageMediaInterests = styled.div`
   background: url(${img}) no-repeat center/cover;
   height: 115vh;
   width: 100%;
-  @media (max-width: 2214px) {
-    height: 100vh;
-  }
   @media (max-width: 1583px) {
-    height: 125vh;
+    height: 135vh;
   }
   @media (max-width: 1409px) {
     height: 135vh;

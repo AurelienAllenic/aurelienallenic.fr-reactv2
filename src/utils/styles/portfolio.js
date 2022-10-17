@@ -1,4 +1,3 @@
-import { computeHeadingLevel } from "@testing-library/react";
 import styled from "styled-components";
 import colors from "./colors";
 
