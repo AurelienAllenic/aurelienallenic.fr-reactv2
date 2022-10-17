@@ -7,10 +7,24 @@ export const PortfolioContainer = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   text-align: center;
+  position: absolute;
+  top: 17%;
+  @media (max-width: 1069px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 820px) {
+    top: 33%;
+  }
+  @media (max-width: 701px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @media (max-width: 414px) {
+    top: 40%;
+  }
 `;
 export const ImagePortfolio = styled.img`
-  width: 55%;
-  height: 20vh;
+  min-width: 55%;
+  max-height: 20vh;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -18,6 +32,21 @@ export const ImagePortfolio = styled.img`
   border-radius: 30px 30px 30px 30px;
   &:hover {
     animation: changeSepia both 3s;
+  }
+  @media (max-width: 1222px) {
+    min-width: 45%;
+  }
+  @media (max-width: 1222px) {
+    min-width: 45%;
+  }
+  @media (max-width: 820px) {
+    max-height: 19vh;
+  }
+  @media (max-width: 701px) {
+    max-height: 30vh;
+  }
+  @media (max-width: 447px) {
+    height: 25vh;
   }
   @keyframes changeSepia {
     25% {

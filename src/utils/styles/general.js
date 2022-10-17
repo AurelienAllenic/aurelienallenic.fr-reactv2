@@ -55,6 +55,29 @@ export const MainImageMediaEXP = styled.div`
     height: 140vh;
   }
 `;
+export const MainImageMediaPortfolio = styled.div`
+  background: url(${img}) no-repeat center/cover;
+  height: 100vh;
+  width: 100%;
+  @media (max-width: 1553px) {
+    height: 110vh;
+  }
+  @media (max-width: 1069px) {
+    height: 155vh;
+  }
+  @media (max-width: 820px) {
+    height: 175vh;
+  }
+  @media (max-width: 701px) {
+    height: 360vh;
+  }
+  @media (max-width: 414px) {
+    height: 375vh;
+  }
+  @media (max-width: 375px) {
+    height: 400vh;
+  }
+`;
 export const MainTitle = styled.h3`
   color: white;
   display: flex;
