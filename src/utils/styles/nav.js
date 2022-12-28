@@ -22,7 +22,6 @@ export const NavHomeLeft = styled.nav`
   }
   @media (max-width: 414px) {
     left: 0%;
-    top: 38%;
   }
 `;
 export const NavHomeRight = styled.nav`
@@ -46,7 +45,6 @@ export const NavHomeRight = styled.nav`
   }
   @media (max-width: 414px) {
     right: 0%;
-    top: 38%;
   }
 `;
 export const HomeButton = styled.a`
@@ -67,6 +65,7 @@ export const HomeButton = styled.a`
   }
   @media (max-width: 414px) {
     font-size: 20px;
+    padding: 10px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -90,6 +89,7 @@ export const AboutButton = styled.a`
   }
   @media (max-width: 414px) {
     font-size: 20px;
+    padding: 10px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -113,6 +113,7 @@ export const ExperienceButton = styled.a`
   }
   @media (max-width: 414px) {
     font-size: 20px;
+    padding: 10px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -136,6 +137,7 @@ export const PortfolioButton = styled.a`
   }
   @media (max-width: 414px) {
     font-size: 20px;
+    padding: 10px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -159,6 +161,7 @@ export const InterestsButton = styled.a`
   }
   @media (max-width: 414px) {
     font-size: 20px;
+    padding: 10px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
@@ -182,6 +185,7 @@ export const ContactButton = styled.a`
   }
   @media (max-width: 414px) {
     font-size: 20px;
+    padding: 10px;
   }
   @media (max-width: 375px) {
     font-size: 18px;
