@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavHomeLeft, NavHomeRight, HomeButton, AboutButton, ExperienceButton, PortfolioButton, InterestsButton, ContactButton } from "../../utils/styles/nav"
+import { NavHomeLeft, NavHomeRight, Button } from "../../utils/styles/nav"
 import { AiOutlineHome } from "react-icons/ai"
 import { BsFillPersonFill } from "react-icons/bs"
 import { BsFillBookmarkStarFill } from "react-icons/bs"
@@ -11,14 +11,14 @@ function NavHomepage() {
   return (
     <>
       <NavHomeLeft>
-        <HomeButton href='/'><AiOutlineHome /> Home</HomeButton>
-        <AboutButton href='/about'><BsFillPersonFill /> About</AboutButton>
-        <ExperienceButton href='/experience'><BsFillBookmarkStarFill /> Experience</ExperienceButton>
+        <Button href='/'><AiOutlineHome /> Home</Button>
+        <Button href='/about'><BsFillPersonFill /> About</Button>
+        <Button href='/experience'><BsFillBookmarkStarFill /> Experience</Button>
       </NavHomeLeft>
       <NavHomeRight>
-        <PortfolioButton href='/portfolio'><FaFolderOpen /> Portfolio</PortfolioButton>
-        <InterestsButton href='/interests'><RiHeartAddFill /> Interests</InterestsButton>
-        <ContactButton href='/contact'><BsFillChatDotsFill /> Contact</ContactButton>
+        <Button href='/portfolio'><FaFolderOpen /> Portfolio</Button>
+        <Button href='/interests'><RiHeartAddFill /> Interests</Button>
+        <Button href='/contact'><BsFillChatDotsFill /> Contact</Button>
       </NavHomeRight>
     </>
   )

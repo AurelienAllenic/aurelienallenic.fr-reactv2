@@ -249,27 +249,31 @@ export const ImageContainer = styled.div`
       opacity: 1;
     }
   }
+  @media (max-width: 1608px) {
+    width: 30%;
+    left: 36%;
+  }
   @media (max-width: 1496px) {
-    height: 400px;
-    top: 45%;
+    height: 470px;
+    top: 42%;
   }
   @media (max-width: 1128px) {
-    height: 300px;
+    height: 400px;
     top: 45%;
   }
   @media (max-width: 940px) {
     height: 250px;
   }
   @media (max-width: 820px) {
-    height: 20vh;
+    height: 300px;
     left: 36%;
   }
-  @media (max-width: 414px) {
-    height: 15vh;
-    top: 45%;
+  @media (max-width: 644px) {
+    width: 35%;
+    left: 34%;
   }
-  @media (max-width: 375px) {
-    top: 43%;
+  @media (max-width: 550px) {
+    display : none;
   }
 `;
 export const ImageMe = styled.div`
